@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Facebook from './components/Facebook';
 import Navbar from './components/Navbar';
+import Content from './components/Content';
 
 class App extends React.Component
 {
@@ -21,7 +22,8 @@ class App extends React.Component
             }
         })
             .then((response)=>{
-                console.log(response.data[1].kanji.character)
+                //console.log(response.data[1].kanji.character)
+                console.log(response.data)
             })
             .catch((error)=>{
                 console.log(error)
@@ -34,6 +36,7 @@ class App extends React.Component
                 <Navbar />
                 <Facebook/>
                 <button onClick={this.click}>Click</button>
+                <Content/>
             </div>
         );
     }
