@@ -2,6 +2,7 @@ import React , {Component} from 'react'
 import FacebookLogin from 'react-facebook-login'
 import Navbar from "./Navbar";
 import Content from "./Content";
+import './facebook.css'
 
 export default class Facebook extends Component
 {
