@@ -35,7 +35,8 @@ export default class Facebook extends Component
 
         if(this.state.isLoggedIn == true)
         {
-            fbContent = (
+            fbContent =
+                (
                 <div style=
                          {
                              {
