@@ -8,6 +8,8 @@ function Element()
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
+            <td>Otto</td>
+            <td>@mdo</td>
         </tr>
     );
 }

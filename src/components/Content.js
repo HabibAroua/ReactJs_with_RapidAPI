@@ -22,7 +22,9 @@ class Content extends React.Component
                 </tr>
                 </thead>
                 <tbody>
-
+                    <Element/>
+                    <Element/>
+                    <Element/>
                 </tbody>
             </table>
         )
