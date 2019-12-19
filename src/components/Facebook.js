@@ -1,8 +1,8 @@
 import React , {Component} from 'react'
 import FacebookLogin from 'react-facebook-login'
 import Navbar from "./Navbar";
-import Content from "./Content";
-import './facebook.css'
+import Content from "./table/Content";
+import './css/facebook.css'
 
 export default class Facebook extends Component
 {
