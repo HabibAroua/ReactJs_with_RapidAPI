@@ -11,6 +11,7 @@ class Content extends React.Component
 
     componentDidMount()
     {
+
         console.log("Hello world 1 ")
         const axios = require("axios");
 
@@ -53,7 +54,7 @@ class Content extends React.Component
         })
         return (
             <div>
-                <table className="table table-bordered table-dark">
+                <table  className="table table-bordered table-dark">
                     <thead>
                     <tr>
                         <th scope="col" rowSpan="2">Nd</th>
