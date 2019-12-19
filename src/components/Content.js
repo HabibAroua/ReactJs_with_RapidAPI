@@ -47,10 +47,8 @@ class Content extends React.Component
             console.log("index "+i)
             console.log(list.kanji.character)
             return(
-              <div>
-                  {i}
-                  list is {list.kanji.character}
-            </div>
+                <Element nb={i} l={list}/>
+
             )
         })
         return (
@@ -71,12 +69,9 @@ class Content extends React.Component
                     </tr>
                     </thead>
                     <tbody>
-                        <Element/>
-                        <Element/>
-                        <Element/>
+                        {kanjiList}
                     </tbody>
                 </table>
-                the list is {kanjiList}
             </div>
         )
     }
