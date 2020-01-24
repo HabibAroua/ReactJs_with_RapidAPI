@@ -48,14 +48,14 @@ class Content extends React.Component
     render()
     {
         const {lists} = this.state
-        var i = 0;
-        const kanjiList = lists.map(list=>
+        //var i = 0;
+        const kanjiList = lists.map((list,index)=>
         {
-            i++;
-            console.log("index "+i)
+            //i++;
+            //console.log("index "+i)
             console.log(list.kanji.character)
             return(
-                <Element nb={i} l={list}/>
+                <Element nb={index} l={list}/>
 
             )
         })
