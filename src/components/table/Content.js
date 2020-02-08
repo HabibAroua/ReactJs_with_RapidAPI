@@ -56,7 +56,6 @@ class Content extends React.Component
             console.log(list.kanji.character)
             return(
                 <Element nb={index} l={list}/>
-
             )
         })
         return (
